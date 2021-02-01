@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👉THE NUMS</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body onload="init()">
+    <div class="main-container">
+        <div class="timer">
+            TOUCH THE NUMS
+        </div>
+
+        <div class="msg-container"> </div>
+
+        <button class="play" onclick="toggleGame(this)">Play Again</button>
+
+        <table border="0" cellpadding="10">
+            <tbody class="board"></tbody>
+        </table>
+
+
+        <div>
+            <button class="level easy" onclick="difficulty(this)">Easy</button>
+            <button class="level medium" onclick="difficulty(this)">Medium</button>
+            <button class="level hard" onclick="difficulty(this)">Hard</button>
+
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+
+
+</html>
